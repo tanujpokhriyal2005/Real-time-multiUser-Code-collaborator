@@ -1,7 +1,7 @@
 # Build the Frontend [dist folder]
 # Copy the dist folder content in Backend/public folder
-
-FROM node:20-alpine as frontend-builder
+#node:20-alpine is official node image tag.
+FROM node:20-alpine as frontend-builder   
 
 COPY ./Frontend /app
 
